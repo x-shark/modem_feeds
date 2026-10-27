@@ -1009,7 +1009,7 @@ cell_info()
     at_command3='AT+CCAINFO?'
     response1=$(cmd_cpsi_query "$at_port")
     response2=$(cmd_cnwinfo_query "$at_port")
-    response3=$(at $at_port $at_command3)
+    response3=$(cmd_cacainfo_query $at_port )
 
     local lte=$(echo "$response1" | grep "LTE")
     local nr5g_nsa=$(echo "$response1" | grep "NR5G_NSA")

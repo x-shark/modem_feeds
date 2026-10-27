@@ -217,3 +217,8 @@ cmd_cnwinfo_query()
 {
     at "$1" 'AT+CNWINFO?'
 }
+
+cmd_cacainfo_query()
+{
+    at "$1" 'AT+CACAINF?'
+}
