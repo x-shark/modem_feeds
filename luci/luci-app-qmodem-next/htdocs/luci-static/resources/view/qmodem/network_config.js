@@ -216,10 +216,10 @@ return view.extend({
 			var result = this.connectionStatusData[section_id];
 			if (result && result.connection_status !== undefined) {
 				var status = result.connection_status.toString().toLowerCase();
-				if (status === 'yes' || status === 'true' || status === true) {
+				if (status === 'yes' || status === 'connected' || status === '1' || status === 'true' || status === true) {
 					color = '#00FF00'; // Green (connected)
 					title = _('Connected');
-				} else if (status === 'no' || status === 'false' || status === false) {
+				} else if (status === 'no' || status === 'disconnected' || status === '0' || status === 'false' || status === false) {
 					color = '#FF0000'; // Red (disconnected)
 					title = _('Disconnected');
 				} else {
@@ -314,7 +314,7 @@ return view.extend({
 	o.modalonly = true;
 
 	o = s.option(form.Flag, 'use_ubus', _('Use Ubus'));
-	o.default = '0';
+	o.default = '1';
 	o.rmempty = false;
 	o.modalonly = true;
 
@@ -330,6 +330,16 @@ return view.extend({
 	o.default = '0';
 	o.rmempty = false;
 	o.modalonly = true;
+
+	o = s.option(form.Value, 'bridge_port', _('Bridge Port'));
+	o.description = _('Device-level bridge port for passthrough. If set, it overrides the slot default bridge port.');
+	o.rmempty = true;
+	o.modalonly = true;
+	if (this.networkInterfaces && this.networkInterfaces.length > 0) {
+		this.networkInterfaces.forEach(function(iface) {
+			o.value(iface.id, iface.label);
+		});
+	}
 
 	o = s.option(form.Flag, 'do_not_add_dns', _('Do Not modify resolv.conf'));
 	o.description = _('quectel-CM will append the DNS server to the resolv.conf file by default.if you do not want to modify the resolv.conf file, please check this option.');
@@ -363,6 +373,7 @@ return view.extend({
 	o.value('ip', _('IPv4'));
 	o.value('ipv6', _('IPv6'));
 	o.value('ipv4v6', _('IPv4/IPv6'));
+	o.value('ethernet', _('Ethernet'));
 	o.default = 'ipv4v6';
 	o.rmempty = false;
 	o.modalonly = true;
@@ -661,10 +672,10 @@ return view.extend({
 			if (result && result.connection_status !== undefined) {
 				var status = result.connection_status;
 				status = status.toString().toLowerCase();
-				if (status === 'yes' || status === 'true' || status === true) {
+				if (status === 'yes' || status === 'connected' || status === '1' || status === 'true' || status === true) {
 					color = '#00FF00'; // Green (connected)
 					title = _('Connected');
-				} else if (status === 'no' || status === 'false' || status === false) {
+				} else if (status === 'no' || status === 'disconnected' || status === '0' || status === 'false' || status === false) {
 					color = '#FF0000'; // Red (disconnected)
 					title = _('Disconnected');
 				}
@@ -1007,15 +1018,5 @@ return view.extend({
 				}, _('Confirm'))
 			])
 		]);
-	},
-
-	handleSaveApply: function(ev, mode) {
-		return this.handleSave(ev).then(function() {
-			return callInitAction('qmodem_network', 'reload');
-		});
-	},
-
-	handleSave: function(ev) {
-		return this.super('handleSave', arguments);
 	}
 });

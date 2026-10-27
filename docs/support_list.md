@@ -1,10 +1,15 @@
+# openluat
+Model | Platform | USB  | PCIe 
+--- | --- | --- | ---
+air724ug | unisoc |✔ usb(ecm,rndis) | ✘
+
 # huawei
 Model | Platform | USB  | PCIe 
 --- | --- | --- | ---
 s10 | hisilicon |✔ usb(rndis) | ✘
 mt5700m-cn | hisilicon |✔ usb(ecm,ncm) | ✘
 mt5710_cn | hisilicon |✔ usb(ecm,ncm) | ✘
-mh5000-31 | hisilicon |✔ usb(ecm) | ✘
+mh5000-31 | hisilicon |✔ usb(ecm,ncm) | ✘
 mh5000-82 | unisoc |✔ usb(ecm,ncm,rndis) | ✘
 mh5000-82m | unisoc |✔ usb(ecm,ncm,rndis) | ✘
 
@@ -17,6 +22,7 @@ ep06 | lte |✔ usb(qmi,ecm,mbim,rndis) | ✘
 em12 | lte |✔ usb(qmi,ecm,mbim,rndis) | ✘
 em120k | lte12 |✔ usb(qmi,ecm,mbim,rndis) | ✘
 em160r-gl | lte12 |✔ usb(qmi,ecm,mbim,rndis) | ✘
+ag598eeu | qualcomm |✔ usb(qmi,gobinet,ecm,mbim,rndis,ncm) | ✘
 rg200u-cn | unisoc |✔ usb(ecm,mbim,rndis,ncm) | ✘
 rg801 | hisilicon |✔ usb(ecm,rndis,ncm) | ✘
 rm500u-cn | unisoc |✔ usb(ecm,mbim,rndis,ncm) | ✘
@@ -64,9 +70,10 @@ fm350-gl-00 | mediatek |✔ usb(rndis) | ✘
 fm350r-gl | mediatek |✔ usb(rndis) | ✔ pcie(mbim)
 rw350r-gl | mediatek |✔ usb(rndis) | ✔ pcie(mbim)
 fm150-ae | qualcomm |✔ usb(qmi,gobinet,ecm,mbim,rndis,ncm) | ✔ pcie(qmi,mbim)
-fm160-cn | qualcomm |✔ usb(qmi,gobinet,ecm,mbim,rndis,ncm) | ✘
-fm160-eau | qualcomm |✔ usb(qmi,gobinet,ecm,mbim,rndis,ncm) | ✘
-fm160-na | qualcomm |✔ usb(qmi,gobinet,ecm,mbim,rndis,ncm) | ✘
+fm160-cn | qualcomm |✔ usb(qmi,gobinet,ecm,mbim,rndis,ncm) | ✔ pcie(qmi,mbim)
+fm160-eau | qualcomm |✔ usb(qmi,gobinet,ecm,mbim,rndis,ncm) | ✔ pcie(qmi,mbim)
+fm160-na | qualcomm |✔ usb(qmi,gobinet,ecm,mbim,rndis,ncm) | ✔ pcie(qmi,mbim)
+fm170-eau | qualcomm |✔ usb(qmi,gobinet,ecm,mbim,rndis) | ✔ pcie(qmi,mbim)
 fm190w-gl | qualcomm |✔ usb(qmi,gobinet,ecm,mbim,rndis,ncm) | ✔ pcie(qmi)
 l610-eu | unisoc |✔ usb(ecm,rndis,ncm) | ✘
 nl668 | lte |✔ usb(ecm,rndis,ncm) | ✘
@@ -84,6 +91,7 @@ srm821 | unisoc |✔ usb(ecm,rndis,ncm) | ✘
 Model | Platform | USB  | PCIe 
 --- | --- | --- | ---
 em9190 | qualcomm |✔ usb(mbim,rmnet) | ✔ pcie(mbim,rmnet)
+em9291 | qualcomm |✔ usb(mbim,rmnet) | ✔ pcie(mbim,rmnet)
 mc7354 | lte |✔ usb(qmi) | ✘
 mc7355 | lte |✔ usb(qmi) | ✘
 
@@ -109,7 +117,14 @@ Model | Platform | USB  | PCIe
 t77w968 | qualcomm |✔ usb(qmi,mbim) | ✘
 t99w175 | qualcomm |✔ usb(mbim,rmnet) | ✔ pcie(mbim)
 t99w373 | qualcomm |✔ usb(mbim,rmnet) | ✔ pcie(mbim)
+t99w368 | qualcomm |✔ usb(mbim,rmnet) | ✔ pcie(mbim)
 t99w640 | qualcomm |✘ | ✔ pcie(mbim)
+
+# thales
+Model | Platform | USB  | PCIe 
+--- | --- | --- | ---
+mv32-w-a | qualcomm |✔ usb(mbim) | ✘
+mv32-w-b | qualcomm |✔ usb(mbim,rmnet) | ✘
 
 # neoway
 Model | Platform | USB  | PCIe 
@@ -120,3 +135,4 @@ n510m | unisoc |✔ usb(ecm) | ✘
 Model | Platform | USB  | PCIe 
 --- | --- | --- | ---
 me3630-w | lte |✔ usb(ecm) | ✘
+gm800 | qualcomm |✔ usb(qmi,ecm,mbim,rndis) | ✔ pcie(mbim)
