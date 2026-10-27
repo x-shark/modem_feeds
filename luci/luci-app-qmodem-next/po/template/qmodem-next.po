@@ -127,8 +127,8 @@ msgstr ""
 #: vendor/neoway.sh:701
 #: vendor/neoway.sh:756
 #: vendor/openluat.sh:1133
-#: vendor/simcom.sh:1150
-#: vendor/simcom.sh:1190
+#: vendor/simcom.sh:1162
+#: vendor/simcom.sh:1202
 #: vendor/telit.sh:741
 msgid "Absolute Radio-Frequency Channel Number"
 msgstr ""
@@ -330,9 +330,9 @@ msgstr ""
 #: vendor/neoway.sh:738
 #: vendor/neoway.sh:757
 #: vendor/openluat.sh:1115
-#: vendor/simcom.sh:1151
-#: vendor/simcom.sh:1173
-#: vendor/simcom.sh:1191
+#: vendor/simcom.sh:1163
+#: vendor/simcom.sh:1185
+#: vendor/simcom.sh:1203
 #: vendor/telit.sh:739
 #: vendor/thales.sh:393
 #: vendor/thales.sh:420
@@ -449,10 +449,10 @@ msgstr ""
 #: vendor/neoway.sh:734
 #: vendor/openluat.sh:1112
 #: vendor/openluat.sh:1131
-#: vendor/simcom.sh:1147
-#: vendor/simcom.sh:1169
-#: vendor/simcom.sh:1202
-#: vendor/simcom.sh:1221
+#: vendor/simcom.sh:1159
+#: vendor/simcom.sh:1181
+#: vendor/simcom.sh:1214
+#: vendor/simcom.sh:1233
 #: vendor/thales.sh:390
 #: vendor/thales.sh:417
 #: vendor/thales.sh:448
@@ -469,7 +469,7 @@ msgstr ""
 #: vendor/neoway.sh:692
 #: vendor/openluat.sh:1057
 #: vendor/quectel.sh:1684
-#: vendor/simcom.sh:1140
+#: vendor/simcom.sh:1151
 #: vendor/telit.sh:737
 #: vendor/thales.sh:374
 #: view/qmodem/config_advanced.js:947
@@ -506,9 +506,9 @@ msgstr ""
 #: vendor/openluat.sh:1122
 #: vendor/quectel.sh:1709
 #: vendor/quectel.sh:1727
-#: vendor/simcom.sh:1153
-#: vendor/simcom.sh:1183
-#: vendor/simcom.sh:1213
+#: vendor/simcom.sh:1165
+#: vendor/simcom.sh:1195
+#: vendor/simcom.sh:1225
 msgid "Channel Quality Indicator"
 msgstr ""
 
@@ -731,10 +731,10 @@ msgstr ""
 #: vendor/meig.sh:591
 #: vendor/neoway.sh:724
 #: vendor/openluat.sh:1117
-#: vendor/simcom.sh:1152
-#: vendor/simcom.sh:1175
-#: vendor/simcom.sh:1192
-#: vendor/simcom.sh:1207
+#: vendor/simcom.sh:1164
+#: vendor/simcom.sh:1187
+#: vendor/simcom.sh:1204
+#: vendor/simcom.sh:1219
 msgid "DL Bandwidth"
 msgstr ""
 
@@ -742,7 +742,7 @@ msgstr ""
 msgid "DL Bandwidth (CA)"
 msgstr ""
 
-#: vendor/simcom.sh:1155
+#: vendor/simcom.sh:1167
 #: vendor/telit.sh:744
 msgid "DL/UL MOD"
 msgstr ""
@@ -928,9 +928,9 @@ msgstr ""
 #: vendor/quectel.sh:1688
 #: vendor/quectel.sh:1702
 #: vendor/quectel.sh:1721
-#: vendor/simcom.sh:1146
-#: vendor/simcom.sh:1168
-#: vendor/simcom.sh:1201
+#: vendor/simcom.sh:1158
+#: vendor/simcom.sh:1180
+#: vendor/simcom.sh:1213
 msgid "Duplex Mode"
 msgstr ""
 
@@ -946,8 +946,8 @@ msgstr ""
 #: vendor/huawei.sh:547
 #: vendor/neoway.sh:712
 #: vendor/openluat.sh:1114
-#: vendor/simcom.sh:1171
-#: vendor/simcom.sh:1204
+#: vendor/simcom.sh:1183
+#: vendor/simcom.sh:1216
 #: vendor/thales.sh:419
 msgid "E-UTRA Absolute Radio Frequency Channel Number"
 msgstr ""
@@ -956,7 +956,7 @@ msgstr ""
 #: vendor/huawei.sh:573
 #: vendor/meig.sh:605
 #: vendor/neoway.sh:742
-#: vendor/simcom.sh:1225
+#: vendor/simcom.sh:1237
 msgid "Ec/Io"
 msgstr ""
 
@@ -1365,8 +1365,8 @@ msgstr ""
 #: vendor/foxconn.sh:634
 #: vendor/huawei.sh:523
 #: vendor/huawei.sh:548
-#: vendor/simcom.sh:1172
-#: vendor/simcom.sh:1205
+#: vendor/simcom.sh:1184
+#: vendor/simcom.sh:1217
 msgid "Freq band indicator"
 msgstr ""
 
@@ -1732,7 +1732,7 @@ msgstr ""
 #: vendor/meig.sh:600
 #: vendor/neoway.sh:733
 #: vendor/openluat.sh:1130
-#: vendor/simcom.sh:1220
+#: vendor/simcom.sh:1232
 #: vendor/thales.sh:391
 msgid "Location Area Code"
 msgstr ""
@@ -1873,11 +1873,11 @@ msgstr ""
 #: vendor/neoway.sh:754
 #: vendor/openluat.sh:1109
 #: vendor/openluat.sh:1128
-#: vendor/simcom.sh:1144
-#: vendor/simcom.sh:1166
-#: vendor/simcom.sh:1187
+#: vendor/simcom.sh:1156
+#: vendor/simcom.sh:1178
 #: vendor/simcom.sh:1199
-#: vendor/simcom.sh:1218
+#: vendor/simcom.sh:1211
+#: vendor/simcom.sh:1230
 #: vendor/thales.sh:388
 #: vendor/thales.sh:415
 #: vendor/thales.sh:446
@@ -1912,11 +1912,11 @@ msgstr ""
 #: vendor/neoway.sh:755
 #: vendor/openluat.sh:1110
 #: vendor/openluat.sh:1129
-#: vendor/simcom.sh:1145
-#: vendor/simcom.sh:1167
-#: vendor/simcom.sh:1188
+#: vendor/simcom.sh:1157
+#: vendor/simcom.sh:1179
 #: vendor/simcom.sh:1200
-#: vendor/simcom.sh:1219
+#: vendor/simcom.sh:1212
+#: vendor/simcom.sh:1231
 #: vendor/thales.sh:389
 #: vendor/thales.sh:416
 #: vendor/thales.sh:447
@@ -2094,7 +2094,7 @@ msgstr ""
 #: vendor/openluat.sh:1127
 #: vendor/openluat.sh:1137
 #: vendor/quectel.sh:1685
-#: vendor/simcom.sh:1141
+#: vendor/simcom.sh:1155
 #: vendor/telit.sh:738
 #: vendor/thales.sh:387
 #: vendor/thales.sh:414
@@ -2370,10 +2370,10 @@ msgstr ""
 #: vendor/neoway.sh:700
 #: vendor/neoway.sh:711
 #: vendor/openluat.sh:1113
-#: vendor/simcom.sh:1148
-#: vendor/simcom.sh:1170
-#: vendor/simcom.sh:1189
-#: vendor/simcom.sh:1203
+#: vendor/simcom.sh:1160
+#: vendor/simcom.sh:1182
+#: vendor/simcom.sh:1201
+#: vendor/simcom.sh:1215
 #: vendor/telit.sh:742
 #: vendor/thales.sh:418
 #: vendor/thales.sh:449
@@ -2459,7 +2459,7 @@ msgstr ""
 #: vendor/huawei.sh:569
 #: vendor/meig.sh:602
 #: vendor/neoway.sh:736
-#: vendor/simcom.sh:1223
+#: vendor/simcom.sh:1235
 msgid "Primary Scrambling Code"
 msgstr ""
 
@@ -2536,7 +2536,7 @@ msgstr ""
 #: vendor/foxconn.sh:587
 #: vendor/huawei.sh:535
 #: vendor/huawei.sh:557
-#: vendor/simcom.sh:1182
+#: vendor/simcom.sh:1194
 msgid "Radio Signal Strength Noise Ratio"
 msgstr ""
 
@@ -2579,7 +2579,7 @@ msgstr ""
 #: vendor/huawei.sh:572
 #: vendor/meig.sh:604
 #: vendor/neoway.sh:741
-#: vendor/simcom.sh:1224
+#: vendor/simcom.sh:1236
 msgid "Received Signal Code Power"
 msgstr ""
 
@@ -2592,9 +2592,9 @@ msgstr ""
 #: vendor/huawei.sh:511
 #: vendor/huawei.sh:534
 #: vendor/huawei.sh:556
-#: vendor/simcom.sh:1160
-#: vendor/simcom.sh:1181
-#: vendor/simcom.sh:1227
+#: vendor/simcom.sh:1172
+#: vendor/simcom.sh:1193
+#: vendor/simcom.sh:1239
 msgid "Received Signal Level"
 msgstr ""
 
@@ -2612,9 +2612,9 @@ msgstr ""
 #: vendor/openluat.sh:1138
 #: vendor/quectel.sh:1708
 #: vendor/quectel.sh:1726
-#: vendor/simcom.sh:1158
-#: vendor/simcom.sh:1179
-#: vendor/simcom.sh:1211
+#: vendor/simcom.sh:1170
+#: vendor/simcom.sh:1191
+#: vendor/simcom.sh:1223
 #: vendor/telit.sh:748
 #: vendor/thales.sh:394
 #: vendor/thales.sh:425
@@ -2642,10 +2642,10 @@ msgstr ""
 #: vendor/neoway.sh:717
 #: vendor/openluat.sh:1118
 #: vendor/openluat.sh:1139
-#: vendor/simcom.sh:1156
-#: vendor/simcom.sh:1177
-#: vendor/simcom.sh:1193
-#: vendor/simcom.sh:1209
+#: vendor/simcom.sh:1168
+#: vendor/simcom.sh:1189
+#: vendor/simcom.sh:1205
+#: vendor/simcom.sh:1221
 #: vendor/telit.sh:746
 #: vendor/thales.sh:424
 #: vendor/thales.sh:455
@@ -2672,10 +2672,10 @@ msgstr ""
 #: vendor/neoway.sh:718
 #: vendor/openluat.sh:1119
 #: vendor/openluat.sh:1140
-#: vendor/simcom.sh:1157
-#: vendor/simcom.sh:1178
-#: vendor/simcom.sh:1194
-#: vendor/simcom.sh:1210
+#: vendor/simcom.sh:1169
+#: vendor/simcom.sh:1190
+#: vendor/simcom.sh:1206
+#: vendor/simcom.sh:1222
 #: vendor/telit.sh:747
 #: vendor/thales.sh:423
 #: vendor/thales.sh:454
@@ -2754,8 +2754,8 @@ msgstr ""
 #: vendor/meig.sh:579
 #: vendor/quectel.sh:1692
 #: vendor/quectel.sh:1718
-#: vendor/simcom.sh:1161
-#: vendor/simcom.sh:1196
+#: vendor/simcom.sh:1173
+#: vendor/simcom.sh:1208
 #: view/qmodem/config_advanced.js:771
 msgid "SCS"
 msgstr ""
@@ -3078,9 +3078,9 @@ msgstr ""
 #: vendor/quectel.sh:1693
 #: vendor/quectel.sh:1711
 #: vendor/quectel.sh:1729
-#: vendor/simcom.sh:1162
-#: vendor/simcom.sh:1185
-#: vendor/simcom.sh:1215
+#: vendor/simcom.sh:1174
+#: vendor/simcom.sh:1197
+#: vendor/simcom.sh:1227
 msgid "Serving Cell Receive Level"
 msgstr ""
 
@@ -3117,10 +3117,10 @@ msgstr ""
 #: vendor/huawei.sh:533
 #: vendor/huawei.sh:539
 #: vendor/huawei.sh:555
-#: vendor/simcom.sh:1159
-#: vendor/simcom.sh:1180
-#: vendor/simcom.sh:1195
-#: vendor/simcom.sh:1212
+#: vendor/simcom.sh:1171
+#: vendor/simcom.sh:1192
+#: vendor/simcom.sh:1207
+#: vendor/simcom.sh:1224
 #: vendor/telit.sh:749
 #: vendor/thales.sh:426
 #: vendor/thales.sh:456
@@ -3259,9 +3259,9 @@ msgstr ""
 #: vendor/openluat.sh:1123
 #: vendor/quectel.sh:1710
 #: vendor/quectel.sh:1728
-#: vendor/simcom.sh:1154
-#: vendor/simcom.sh:1184
-#: vendor/simcom.sh:1214
+#: vendor/simcom.sh:1166
+#: vendor/simcom.sh:1196
+#: vendor/simcom.sh:1226
 #: vendor/telit.sh:745
 #: vendor/thales.sh:427
 #: vendor/thales.sh:457
@@ -3349,9 +3349,9 @@ msgstr ""
 #: vendor/huawei.sh:504
 #: vendor/huawei.sh:530
 #: vendor/huawei.sh:552
-#: vendor/simcom.sh:1149
-#: vendor/simcom.sh:1176
-#: vendor/simcom.sh:1208
+#: vendor/simcom.sh:1161
+#: vendor/simcom.sh:1188
+#: vendor/simcom.sh:1220
 #: vendor/thales.sh:422
 #: vendor/thales.sh:453
 msgid "Tracking area code of cell served by neighbor Enb"
@@ -3373,7 +3373,7 @@ msgstr ""
 msgid "Tuesday"
 msgstr ""
 
-#: vendor/simcom.sh:1226
+#: vendor/simcom.sh:1238
 msgid "Tx Power"
 msgstr ""
 
@@ -3396,8 +3396,8 @@ msgstr ""
 #: vendor/meig.sh:590
 #: vendor/neoway.sh:725
 #: vendor/openluat.sh:1116
-#: vendor/simcom.sh:1174
-#: vendor/simcom.sh:1206
+#: vendor/simcom.sh:1186
+#: vendor/simcom.sh:1218
 msgid "UL Bandwidth"
 msgstr ""
 
@@ -3467,7 +3467,7 @@ msgstr ""
 msgid "Unlocking..."
 msgstr ""
 
-#: vendor/simcom.sh:1222
+#: vendor/simcom.sh:1234
 msgid "Uplink Absolute Radio Frequency Channel Number"
 msgstr ""
 
